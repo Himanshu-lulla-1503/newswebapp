@@ -18,6 +18,7 @@ export default makeStyles({
   },
   activeCard: {
     borderBottom: '10px solid #22289a',
+    boxShadow: '0 0 6px 6px #888888'
   },
   grid: {
     display: 'flex',

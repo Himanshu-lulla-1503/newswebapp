@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
   footer: {
     textAlign: 'center',
-    position: 'fixed',
+    position: 'relative',
     left: 0,
     bottom: 0,
     color: 'black',
@@ -19,6 +19,7 @@ export default makeStyles((theme) => ({
   link: {
     textDecoration: 'none',
     color: 'rgba(21, 101, 192)',
+    
   },
   image: {
     marginLeft: 20,
@@ -35,6 +36,7 @@ export default makeStyles((theme) => ({
     margin: '0 12px',
     textAlign: 'center',
     height: '25vmin',
+ 
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column-reverse',
       textAlign: 'center',
